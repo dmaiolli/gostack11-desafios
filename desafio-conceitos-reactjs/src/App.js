@@ -15,7 +15,7 @@ function App() {
   async function handleAddRepository() {
     
     const response = await api.post('/repositories', {
-      title: "Repo",
+      title: "GoStack 11",
       url: "blalbllba",
       techs: ["Node.js", "React"]
     })
@@ -35,11 +35,12 @@ function App() {
       <ul data-testid="repository-list">
         {repositories.map(repository => {
           return (
-            <>
-          <li key={repository.id}>{repository.title}</li>
-          <button onClick={() => handleRemoveRepository(repository.id)}>
-          Remover
-          </button>
+          <>
+            <li key={repository.id}>{repository.title}
+              <button onClick={() => handleRemoveRepository(repository.id)}>
+                Remover
+              </button>
+            </li>
           </>
           )
         })}
