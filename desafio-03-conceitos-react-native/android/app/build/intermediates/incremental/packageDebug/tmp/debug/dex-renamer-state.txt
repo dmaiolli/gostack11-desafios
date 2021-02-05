@@ -1,0 +1,4 @@
+#Thu Feb 04 22:08:33 BRT 2021
+base.0=/home/dmaiolli/gostack11-desafios/desafio-conceitos-react-native/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
